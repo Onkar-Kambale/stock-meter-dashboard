@@ -1,0 +1,27 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 16px;
+  width: 80%;
+  max-width: 700px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #203a43;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

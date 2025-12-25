@@ -1,0 +1,59 @@
+.gauge-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gauge-card:hover {
+  transform: scale(1.05);
+}
+
+.gauge {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.arc {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 14px solid transparent;
+  border-top: 14px solid #00ffcc;
+  border-right: 14px solid #ffaa00;
+  border-left: 14px solid #ff4444;
+  transform: rotate(180deg);
+}
+
+.needle {
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: white;
+  top: 10px;
+  left: 50%;
+  transform-origin: bottom;
+  transition: transform 1s ease-in-out;
+}
+
+.center-dot {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
