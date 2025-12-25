@@ -1,20 +1,81 @@
-<<<<<<< HEAD
-# React + Vite
+# 📈 Stock Meter Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Stock Market Dashboard** that visually represents stock performance using meter-style indicators and a clean user interface. This project helps users quickly understand stock trends and key metrics through an intuitive dashboard design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 📊 Visual stock meters for quick performance insights  
+- ⚡ Interactive and dynamic dashboard UI  
+- 🎨 Clean, minimal, and responsive design  
+- 📉 Displays stock trends and performance levels  
+- 🧭 Easy-to-understand data visualization  
+- 💻 Beginner-friendly and scalable project structure  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# stock-meter-dashboard
->>>>>>> f0706d1f3bf67e0f3eda5535a9415867f9236c7f
+- **Frontend:** HTML, CSS, JavaScript  
+- **Styling:** Custom CSS  
+- **Logic & Interactivity:** JavaScript  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📂 Project Structure
+
+stock-meter-dashboard/
+│
+├── index.html # Main dashboard UI
+├── style.css # Styling and layout
+├── script.js # Stock meter logic
+└── README.md # Project documentation
+
+---
+
+## 🎯 Use Cases
+
+Stock performance visualization
+
+Frontend dashboard UI practice
+
+JavaScript DOM manipulation learning
+
+Mini-project for portfolios
+
+Academic or self-learning project
+
+---
+
+## 📌 Future Enhancements
+
+🔄 Real-time stock API integration
+
+🌙 Dark/Light mode toggle
+
+📈 Advanced charts using Chart.js
+
+🔐 User authentication
+
+📱 Mobile-first UI improvements
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project:
+
+⭐ Star this repository
+
+🍴 Fork it
+
+🧑‍💻 Contribute or suggest improvements
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project.
